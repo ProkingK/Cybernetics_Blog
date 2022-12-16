@@ -6,6 +6,11 @@ body
     font-family: 'Poppins', sans-serif;
 }
 
+.section
+{
+    padding: 3rem 0 2rem;
+}
+
 .top-header
 {
     width: 100%;
@@ -21,18 +26,29 @@ body
 
 .main-header
 {
-    height: 25rem;
-    text-align: center;
+    width: 100%;
+    display: grid;
+    min-height: 440px;
+    align-items: center;
+    justify-content: center;
     background-color: #272CA3;
+}
+
+.main-header-text
+{
+    text-align: center;
 }
 
 .main-heading
 {
-    margin: 0;
     color: white;
     font-size: 3rem;
-    padding-top: 8rem;
     font-family: 'Diplomata SC', cursive;
+}
+
+.definition
+{
+    font-size: 1rem;
 }
 
 .intro
@@ -61,7 +77,58 @@ body
 
 .articles
 {
-    display: flex;
+    width: 100%;
+    gap: 1.5rem;
+    margin: auto;
+    display: grid;
+    max-width: 1068px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+}
+
+.article
+{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid #2F96F4;
+}
+
+.article:hover
+{
+    cursor: pointer;
+    box-shadow: #2F96F4;
+}
+
+.article-image
+{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0.5rem;
+}
+
+.catagory
+{
+    font-size: 1rem;
+    color: #2F96F4;
+    text-transform: uppercase;
+}
+
+.article-title
+{
+    font-size: 1.5rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.article-summary
+{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 5px 0 10px;
 }
 
 footer
