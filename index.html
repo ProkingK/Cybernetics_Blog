@@ -80,16 +80,29 @@
             <section class="main-section">
                 <nav>
                     <ul class="nav-bar">
-                        <li class="nav-item"><a href="#" data-title="All">All</a></li>
-                        <li class="nav-item"><a href="#" data-title="Future">Future</a></li>
-                        <li class="nav-item"><a href="#" data-title="Advatages">Advatages</a></li>
-                        <li class="nav-item"><a href="#" data-title="Disadvatages">Disadvatages</a></li>
-                        <li class="nav-item"><a href="#" data-title="Applications">Applications</a></li>
+                        <li class="nav-item"><a data-title="All" class="filter active">All</a></li>
+                        <li class="nav-item"><a data-title="Future" class="filter">Future</a></li>
+                        <li class="nav-item"><a data-title="Advantages" class="filter">Advantages</a></li>
+                        <li class="nav-item"><a data-title="Applications" class="filter">Applications</a></li>
+                        <li class="nav-item"><a data-title="Disadvantages" class="filter">Disadvantages</a></li>
                     </ul>
                 </nav>
 
                 <div class="articles">
-                    <div class="article">
+                    <div class="article Advantages">
+                        <img class="article-image" src="/images/link.png" alt="link" />
+
+                        <h4 class="catagory">Advantages</h4>
+                        <h3 class="article-title">Advanced prostetics</h3>
+
+                        <p class="article-summary">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Eligendi autem nisi maxime quae, modi doloremque qui culpa tempore 
+                            aut asperiores molestiae blanditiis accusamus molestias eum aspernatur 
+                        </p>
+                    </div>
+
+                    <div class="article Advantages">
                         <img class="article-image" src="/images/link.png" alt="link" />
 
                         <h4 class="catagory">Advatages</h4>
@@ -102,7 +115,7 @@
                         </p>
                     </div>
 
-                    <div class="article">
+                    <div class="article Future">
                         <img class="article-image" src="/images/link.png" alt="link" />
 
                         <h4 class="catagory">Advatages</h4>
@@ -115,7 +128,7 @@
                         </p>
                     </div>
 
-                    <div class="article">
+                    <div class="article Applications">
                         <img class="article-image" src="/images/link.png" alt="link" />
 
                         <h4 class="catagory">Advatages</h4>
@@ -128,20 +141,7 @@
                         </p>
                     </div>
 
-                    <div class="article">
-                        <img class="article-image" src="/images/link.png" alt="link" />
-
-                        <h4 class="catagory">Advatages</h4>
-                        <h3 class="article-title">Advanced prostetics</h3>
-
-                        <p class="article-summary">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                            Eligendi autem nisi maxime quae, modi doloremque qui culpa tempore 
-                            aut asperiores molestiae blanditiis accusamus molestias eum aspernatur 
-                        </p>
-                    </div>
-
-                    <div class="article">
+                    <div class="article Disadvantages">
                         <img class="article-image" src="/images/link.png" alt="link" />
 
                         <h4 class="catagory">Advatages</h4>
@@ -171,9 +171,10 @@
         </main>
 
         <footer>
-            <p>©ProkingK Studios</p>
+            <p>© ProkingK Studios | All Rights Reserved</p>
         </footer>
 
+        <script src="https://code.jquery.com/jquery-3.6.2.js" integrity="sha256-pkn2CUZmheSeyssYw3vMp1+xyub4m+e+QK4sQskvuo4=" crossorigin="anonymous"></script>
         <script src="main.js"></script>
     </body>
 

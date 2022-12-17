@@ -75,6 +75,13 @@ body
     background-color: #131F4A;
 }
 
+
+
+
+
+
+
+
 .articles
 {
     width: 100%;
@@ -133,9 +140,11 @@ body
 
 footer
 {
+    margin: 3rem 0 0;
+    padding: 0.5rem;
+    text-align: center;
     background-color: #131F4A;
 }
-
 
 
 /*Background Animation*/
@@ -307,6 +316,12 @@ footer
     display: inline-block;
 }
 
+.active
+{
+    color: white;
+    background-color: #2F96F4;
+}
+
 a
 {
     z-index: 2;
@@ -324,6 +339,7 @@ a
 a:hover
 {
     color: white;
+    cursor: pointer;
 }
 
 a:after
